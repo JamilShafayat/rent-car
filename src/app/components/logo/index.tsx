@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-
 import CarLogoImg from "../../assets/images/car-logo.png";
+
 
 const LogoContainer = styled.div`
   ${tw`
@@ -22,7 +22,7 @@ const LogoText = styled.div`
 `;
 
 const Image = styled.div`
-  width: auth;
+  width: auto;
   ${tw`h-6 md:h-9`};
 
   img {
