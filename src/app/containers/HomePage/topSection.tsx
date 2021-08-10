@@ -141,6 +141,14 @@ const StandAloneCar = styled.div`
   }
 `;
 
+const ButtonContainer = styled.div`
+  ${tw`
+    flex
+    flex-wrap
+    mt-4
+  `}
+`;
+
 const TopSection = () => {
   return <TopSectionContainer>
     <LeftContainer>
@@ -148,8 +156,10 @@ const TopSection = () => {
       <Description>
         Always choose the best car from our local stores or order it remotely at the best price for you and get the best quality cars for as long as you like
       </Description>
-      <Button theme="outlined" text="Book Your Ride" />
-      <Button theme="filled" text="Sell Your Car" />
+      <ButtonContainer>
+        <Button theme="outlined" text="Book Your Ride" />
+        <Button theme="filled" text="Sell Your Car" />
+      </ButtonContainer>
     </LeftContainer>
     <RightContainer>
       <BlobContainer>
