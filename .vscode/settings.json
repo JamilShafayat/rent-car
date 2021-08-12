@@ -144,5 +144,5 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "terminal.integrated.tabs.enabled": true,
-  "cSpell.words": ["Marginer", "fontawesome", "fortawesome"]
+  "cSpell.words": ["Marginer", "Yourcar", "fontawesome", "fortawesome"]
 }
