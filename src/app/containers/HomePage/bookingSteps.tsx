@@ -76,6 +76,7 @@ const StepDescription = styled.p`
     md:text-sm
     text-center
     text-gray-600
+    mb-5
   `}
 `;
 
