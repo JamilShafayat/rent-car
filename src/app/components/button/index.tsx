@@ -5,56 +5,26 @@ import tw from 'twin.macro';
 interface IButtonProps {
   theme?: "filled" | "outlined";
   text: string;
+  className?: string;
 }
 
 const BaseButton = styled.button`
-  ${tw`
-    pl-5
-    pr-5
-    pt-3
-    pb-3
-    outline-none
-    rounded-md
-    text-white
-    text-xs
-    md:font-semibold
-    border-transparent
-    border-2
-    border-solid
-    focus:outline-none
-    transition-all
-    duration-200
-    ease-in-out
-    m-1
-  `}
+  ${tw`pt-3 pb-3 pl-5 pr-5 m-1 text-xs text-white transition-all duration-200 ease-in-out border-2 border-transparent border-solid rounded-md outline-none md:font-semibold focus:outline-none`}
 `;
 
 const OutlinedButton = styled(BaseButton)`
-  ${tw`
-    bg-red-500
-    hover:bg-transparent
-    hover:text-red-500
-    hover:border-red-500
-  `}
+  ${tw`bg-red-500 hover:bg-transparent hover:text-red-500 hover:border-red-500`}
 `;
 
 const FilledButton = styled(BaseButton)`
-  ${tw`
-    border-red-500
-    text-red-500
-    bg-transparent
-    hover:bg-red-500
-    hover:text-white
-    hover:border-transparent
-  `}
+  ${tw`text-red-500 bg-transparent border-red-500 hover:bg-red-500 hover:text-white hover:border-transparent`}
 `;
 
 export function Button(props: IButtonProps) {
-  const { theme, text } = props;
+  const { theme, text, className } = props;
 
   if(theme === 'filled')
-    return <FilledButton>{ text }</FilledButton>
+    return <FilledButton className={className}>{ text }</FilledButton>
   else
-    return <OutlinedButton>{ text }</OutlinedButton>
+    return <OutlinedButton className={className}>{ text }</OutlinedButton>
 }
-
