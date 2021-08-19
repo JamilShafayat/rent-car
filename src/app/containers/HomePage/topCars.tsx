@@ -56,7 +56,7 @@ export const TopCars = () => {
 		<Car {...testCar2} />
 	];
 
-	const numberOfDots = isMobile ? cars.length : Math.ceil(cars.length / 3)
+	const numberOfDots = isMobile ? cars.length : Math.ceil(cars.length / 2)
 
 	return <TopCarsContainer>
 		<Title>Explore Our Top Deals</Title>
