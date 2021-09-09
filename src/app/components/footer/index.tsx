@@ -161,21 +161,21 @@ function Footer() {
 				<SectionContainer>
 					<HeaderTitle>Our Links</HeaderTitle>
 					<LinksList>
-						<ListItem><a href="">Home</a></ListItem>
-						<ListItem><a href="">About Us</a></ListItem>
-						<ListItem><a href="">Services</a></ListItem>
-						<ListItem><a href="">Models</a></ListItem>
-						<ListItem><a href="">Blog</a></ListItem>
+						<ListItem><a href="/">Home</a></ListItem>
+						<ListItem><a href="/">About Us</a></ListItem>
+						<ListItem><a href="/">Services</a></ListItem>
+						<ListItem><a href="/">Models</a></ListItem>
+						<ListItem><a href="/">Blog</a></ListItem>
 					</LinksList>
 				</SectionContainer>
 				<SectionContainer>
 					<HeaderTitle>Other Links</HeaderTitle>
 					<LinksList>
-						<ListItem><a href="">FAQ</a></ListItem>
-						<ListItem><a href="">Contact Us</a></ListItem>
-						<ListItem><a href="">Support</a></ListItem>
-						<ListItem><a href="">Privacy Policy</a></ListItem>
-						<ListItem><a href="">Terms &amp; COndition</a></ListItem>
+						<ListItem><a href="/">FAQ</a></ListItem>
+						<ListItem><a href="/">Contact Us</a></ListItem>
+						<ListItem><a href="/">Support</a></ListItem>
+						<ListItem><a href="/">Privacy Policy</a></ListItem>
+						<ListItem><a href="/">Terms &amp; COndition</a></ListItem>
 					</LinksList>
 				</SectionContainer>
 				<SectionContainer>
