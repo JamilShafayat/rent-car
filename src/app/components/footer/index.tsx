@@ -8,146 +8,59 @@ import { Logo } from '../logo';
 
 const FooterContainer = styled.div`
   background-color: #1d2124;
-  ${tw`
-    flex
-    flex-col
-    min-w-full
-    pt-10
-    md:pt-16
-    items-center
-    justify-center
-  `};
+  ${tw`flex flex-col items-center justify-center min-w-full pt-10 md:pt-16`};
 `;
 
 const InnerContainer = styled.div`
-  ${tw`
-    flex
-    w-full
-    h-full
-    max-w-screen-xl
-    flex-wrap
-  `};
+  ${tw`flex flex-wrap w-full h-full max-w-screen-xl `};
 `;
 
 const BottomContainer = styled.div`
-  ${tw`
-    w-full
-    flex
-    max-w-screen-2xl
-    justify-center
-    md:justify-start
-    mt-7
-    md:mt-1
-  `};
+  ${tw`flex justify-center w-full max-w-screen-2xl md:justify-start mt-7 md:mt-1`};
 `;
 
 const CopyrightText = styled.small`
   font-size: 12px;
-  ${tw`
-    text-gray-300
-  `}
+  ${tw`text-gray-300 `}
 `;
 
 const AboutContainer = styled.div`
-  ${tw`
-    flex
-    flex-col
-    mr-2
-    md:mr-16
-    pl-10
-    pr-10
-    md:pl-3
-    md:pr-3
-  `};
+  ${tw`flex flex-col pl-10 pr-10 mr-2 md:mr-16 md:pl-3 md:pr-3`};
 `;
 
 const AboutText = styled.p`
-  ${tw`
-    text-white
-    text-sm
-    font-normal
-    max-w-xs
-    leading-5
-    mt-2
-  `};
+  ${tw`max-w-xs mt-2 text-sm font-normal leading-5 text-white `};
 `;
 
 const SectionContainer = styled.div`
-  ${tw`
-    w-full
-    md:w-auto
-    flex
-    flex-col
-    mr-2
-    md:mr-16
-    pl-10
-    pr-10
-    md:pl-3
-    md:pr-3
-    mt-7
-    md:mt-0
-  `};
+  ${tw`flex flex-col w-full pl-10 pr-10 mr-2 md:w-auto md:mr-16 md:pl-3 md:pr-3 mt-7 md:mt-0`};
 `;
 
 const LinksList = styled.ul`
-  ${tw`
-    outline-none
-    list-none
-    flex
-    flex-col
-  `};
+  ${tw`flex flex-col list-none outline-none `};
 `;
 
 const ListItem = styled.li`
-  ${tw`
-    mb-3
-  `};
+  ${tw`mb-3 `};
   & > a {
-    ${tw`
-      text-sm
-    text-white
-      transition-all
-      hover:text-gray-200
-    `};
+    ${tw`text-sm text-white transition-all hover:text-gray-200`};
   }
 `;
 
 const HeaderTitle = styled.h3`
-  ${tw`
-    text-2xl
-    font-bold
-    text-white
-    mb-3
-  `};
+  ${tw`mb-3 text-2xl font-bold text-white `};
 `;
 
 const HorizontalContainer = styled.div`
-  ${tw`
-    flex
-    items-center
-  `};
+  ${tw`flex items-center `};
 `;
 
 const RedIcon = styled.span`
-  ${tw`
-    w-9
-    h-9
-    rounded-full
-    bg-red-500
-    flex
-    items-center
-    justify-center
-    text-white
-    text-base
-    mr-2
-  `};
+  ${tw`flex items-center justify-center mr-2 text-base text-white bg-red-500 rounded-full w-9 h-9`};
 `;
 
 const SmallText = styled.h6`
-  ${tw`
-    text-sm
-    text-white
-  `};
+  ${tw`text-sm text-white `};
 `;
 
 function Footer() {
